@@ -1,12 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
 import Users from './components/users/Users';
 import DetUser from './components/detalsUser/DetUser';
 import DetPost from './components/posts/detPost/DetPost';
